@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MAFIV</title>
+	<link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+<style>
+.button {
+    background-color: blue
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+
+</style>
+<body style="background-color:#D8D8D8">
+<div class="container">
+<div class="a" style="background-color:#D8D8D8">
+<div class="bsd" style="font-size:5em;color:maroon"><center>MAFIV</center> </div> 
+              <h2 style="color:brown"><center><div class="asd" style="font-family:Georgia" >Library </div></center></h2>
+<hr style="border-color:black">
+          <p></p>	
+      <h2 style="color:green"><center><div class="ausd" style="font-family:Times New Roman" >Return a Book </div></center></h2>
+   
+<div class="container" >
+<form method = post action = "return.php">
+    <div class="asd" align="center">
+<h2>Accession Number:  <input type="text" name="acc_no" required /></h2>
+    <p></p>
+ <input class="button btn-success"  style="color:#088A08;font-size:20px;width:120px; height:60px; background-color:#E0E0F8;border-radius:10px;border-color:#088A08"	type="submit" name="submit" value="submit" />
+    </div>
+</form>
+</div>
+    </div>
+</div>
+<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

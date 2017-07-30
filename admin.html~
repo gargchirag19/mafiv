@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MAFIV</title>
+	<link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	
+    <div class =container>
+        <div class="a" style="background-color:#D8D8D8">
+<h1 style="color:maroon"><center>MAFIV</center> </h1>                
+<hr style="border-color:black">
+            <h2 style="color:brown"><center>Adminstration</center></h2>
+    <div class =container>
+ <center>
+	<form method = GET action="regi.html" id="form1"></form>
+<button type="submit" form="form1" value="Submit">New Registration</button><br>
+	<form method = GET action="poll.php" id="form2"></form>
+<button type="submit" form="form2" value="Submit">Polling Request</button>
+	<form method = GET action="tt.html" id="form3"></form>
+<button type="submit" form="form3" value="Submit">Change Time Table</button>	
+	<form method = GET action="noti.html" id="form4"></form>
+<button type="submit" form="form4" value="Submit">Notifications</button>		
+        </center>        
+           
+            
+    </div>  </div></div>
+<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

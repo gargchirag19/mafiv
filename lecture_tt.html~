@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MAFIV</title>
+	<link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+<style>
+.button {
+    background-color: blue
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+
+</style>
+<body>
+<div class="container">
+<div class="a" style="background-color:#D8D8D8">
+<h1 style="color:maroon"><center>MAFIV</center> </h1>                
+<hr style="border-color:black">
+            <h2 style="color:brown"><center>Adminstation</center></h2>	
+   
+<div class="container">
+<form method = post action = "lecture_tt.php" id="form1">
+    <div class="asd" align="center">
+Day: &nbsp; <input type="text" name="day" required />
+        <p></p>
+Room Number: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="room"  required />
+        <p></p>
+Course Id: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"name="course_id"  required />
+        <p></p>
+Course Name: &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="course_name" required />
+        <p></p>
+Faculty: &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="facu" required />
+        <p></p>
+Time: &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="time" required />
+        <p></p>
+Branch: &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="branch" required />
+        <p></p>
+Semester: &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="sem" required />
+        <p></p>
+    </div>
+		
+</form>
+<button class="btn btn-success" style="width:120px; height:60px; background-color:#E0E0F8;border-radius:10px;border-color:#088A08" type = submit form = "form1">Submit
+	</button>
+</div>
+    </div>
+</div>
+<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
